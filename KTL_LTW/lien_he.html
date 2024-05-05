@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="lien_he.css">
+</head>
+<body>
+    <center> <h1>CHÀO MỪNG CÁC BẠN ĐẾN VỚI TRANG WEB CỦA MÌNH!</h1> </center>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="gioi_thieu.html">Giới thiệu </a></li>
+                    <li><a href="so_thich.html">Sở thích </a></li>
+                    <li><a href="hoc_van.html">Học vấn</a></li>
+                    <li><a href="lien_he.html">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        
+    <div class="container_contact">
+      <h1>Thông tin liên hệ</h1>
+      <p>Nếu bạn muốn gặp tôi, vui lòng liên hệ với chúng tôi qua thông tin dưới đây:</p>
+      <ul>
+          <li>Email: huynhuy18102003@gmail.com</li>
+          <li>Điện thoại: 0337514729</li>
+          <li><i class="fa-brands fa-facebook" target="_blank"></i> Facebook: <a href="https://www.facebook.com/nt.thano?"> Như Ý </a></li>
+          <li>Địa chỉ: Phan Văn Trị, P5, Gò Vấp, TPHCM</li>
+      </ul>
+  </div>
+    <div class="container">
+      <h1>Liên hệ</h1>
+      <form id="contact-form">
+          <div class="form-group">
+              <label for="name">Tên:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Tin nhắn:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Gửi</button>
+      </form>
+      <div id="response"></div>
+  </div>
+    </main>
+    <footer>
+      <p>© 2024 Trang web cá nhân Như Ý. All rights reserved.</p>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
